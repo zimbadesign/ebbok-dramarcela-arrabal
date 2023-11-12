@@ -1,0 +1,548 @@
+/* EBOOK APNEIA SONO - DRA.MARCELAARRABAL */
+/* CSS ZIMBA DESIGN zimbacom.com @zimbacomunica */
+/* THIAGO GREGÓRIO @thiagofcgregorio */
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* LANDING *//* LANDING *//**//* LANDING *//* LANDING *//* LANDING *//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+
+/**//* TOPO *//* TOPO *//**//* TOPO *//* TOPO *//* TOPO *//**///* TOPO *//* TOPO */
+
+
+header{
+  background-color: #232323;
+}
+
+
+.topo{
+  padding: 7px 0 7px 0;
+  background-color: #5b5b5f;
+}
+
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  font-size: 0.8rem;
+  margin: 0 0 3px 0;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+  color: #a9a9aa;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span{
+  background-color: #fff;
+  color: #5b5b5f;
+  padding: 7px 23px 10px 23px;
+  border-radius: 55px;
+  font-weight: bold;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span:hover{
+  box-shadow: 0px 1px 10px #fff, 0px 1px 10px #fff, 0px 1px 8px #fff, 0px 1px 12px #fff;
+}
+
+
+
+
+
+/**//* SLIDER-PRINCIPAL *//* SLIDER-PRINCIPAL *//**//* SLIDER-PRINCIPAL *//* SLIDER-PRINCIPAL */
+
+.slider-principal{
+  background-color: #5b5b5f;
+  padding: 33px 0;
+  color: #fff;
+}
+
+.slider-principal h1{
+  padding: 7px 0;
+  font-size: 2.8rem;
+}
+
+.slider-principal h5{
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.slider-principal a{
+  text-decoration: none;
+}
+
+.slider-principal h4{
+  background-color: #fff;
+  padding: 17px 0;
+  color: #5b5b5f;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;  
+  margin: 28px 0 0 0;
+  border-radius: 55px;
+}
+
+.slider-principal h4:hover{
+  box-shadow: 0px 1px 10px #fff, 0px 1px 10px #fff, 0px 1px 8px #fff, 0px 1px 12px #fff;
+}
+
+
+
+
+
+/**//* O QUE VOU ENCONTRAR *//* O QUE VOU ENCONTRAR *//**//* O QUE VOU ENCONTRAR *//* O QUE VOU ENCONTRAR */
+
+.oquevou-encontrar{
+  background-color: #cccccc;
+  color: #5b5b5f;
+  padding: 77px;
+}
+
+.oquevou-encontrar h2{
+  font-weight: bold;
+}
+
+.oquevou-encontrar .meu-card{
+  background-color: #aaaaaa;
+  padding: 33px 0;
+  border-radius: 100px;
+  margin: 3px 0;
+  cursor: pointer;
+}
+
+.oquevou-encontrar .meu-card2{
+  background-color: #8b8d8e;
+  padding: 33px 0;
+  border-radius: 100px;
+  margin: 3px 0;
+  cursor: pointer;
+}
+
+.oquevou-encontrar .meu-card:hover{
+  background-color: #8b8d8e;
+}
+
+.oquevou-encontrar .meu-card2:hover{
+  background-color: #aaaaaa;
+}
+
+
+.oquevou-encontrar h5{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.oquevou-encontrar a{
+  text-decoration: none;
+}
+
+.oquevou-encontrar h4{
+  background-color: #5b5b5f;
+  color: #fff;
+  padding: 17px 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;  
+  border-radius: 55px;
+}
+
+.oquevou-encontrar h4:hover{
+   box-shadow: 0px 1px 10px #5b5b5f, 0px 1px 10px #5b5b5f, 0px 1px 8px #5b5b5f, 0px 1px 12px #5b5b5f;
+}
+
+
+
+
+
+/**//* ÍNDICE - - EBOOK *//* ÍNDICE - - EBOOK *//**//* ÍNDICE - - EBOOK *//* ÍNDICE - - EBOOK *//* ÍNDICE - - EBOOK */
+
+
+.indice-ebook .celula1{
+  background-color: #fff;
+  padding: 100px 85px;
+}
+
+.indice-ebook .celula2{
+  background-color: #5b5b5f;
+  padding: 100px 85px;
+}
+
+.indice-ebook .celula1 img{
+  padding: 0 0 33px 0;
+}
+
+.indice-ebook .celula1 h5{
+  font-weight: normal;
+  color: #5b5b5f;
+}
+
+.indice-ebook .celula2 h2{
+  font-weight: bold;
+  font-size: 2.3rem;
+  margin: 0 0 23px 0;
+  color: #fff;
+}
+
+.indice-ebook .celula2 a{
+  text-decoration: none;
+}
+
+.indice-ebook .celula2 h5{
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.indice-ebook h4{
+  background-color: #fff;
+  padding: 17px 0;
+  color: #5b5b5f;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;  
+  margin: 23px 0 0 0;
+  border-radius: 55px;
+}
+
+.indice-ebook h4:hover{
+  box-shadow: 0px 1px 10px #fff, 0px 1px 10px #fff, 0px 1px 8px #fff, 0px 1px 12px #fff;
+}
+
+
+
+
+
+/**//* DRA MARCELAA *//* DRA MARCELAA *//**//* DRA MARCELAA *//* DRA MARCELAA *//* DRA MARCELAA *//* DRA MARCELAA */
+
+.dra-marcela-arrabal{
+  background-color: #cccccc;
+  color: #5b5b5f;
+  padding: 77px;
+}
+
+.dra-marcela-arrabal img{
+  padding: 0 55px 0 0;
+}
+
+.dra-marcela-arrabal a{
+  text-decoration: none;
+}
+
+.dra-marcela-arrabal h2{
+  font-weight: bold;
+}
+
+.dra-marcela-arrabal h5{
+  font-weight: normal;
+}
+
+.dra-marcela-arrabal h4{
+  background-color: #5b5b5f;
+  color: #fff;
+  padding: 17px 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;  
+  border-radius: 55px;
+}
+
+.dra-marcela-arrabal h4:hover{
+   box-shadow: 0px 1px 10px #5b5b5f, 0px 1px 10px #5b5b5f, 0px 1px 8px #5b5b5f, 0px 1px 12px #5b5b5f;
+}
+
+
+
+
+
+/**//* MAIS SOBRE O EBOOK *//* MAIS SOBRE O EBOOK *//**//* MAIS SOBRE O EBOOK *//* MAIS SOBRE O EBOOK */
+
+.mais-sobre-ebook{
+  background-color: #5b5b5f;
+  color: #fff;
+  padding: 88px;
+}
+
+.mais-sobre-ebook h3{
+  font-weight: bold;
+  padding: 0 0 15px 0;
+}
+
+.mais-sobre-ebook h5{
+  font-weight: normal;
+}
+
+.mais-sobre-ebook a{
+  text-decoration: none;
+}
+
+.mais-sobre-ebook h4{
+  background-color: #fff;
+  padding: 17px 0;
+  color: #5b5b5f;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;  
+  margin: 23px 0 0 0;
+  border-radius: 55px;
+}
+
+.mais-sobre-ebook h4:hover{
+   box-shadow: 0px 1px 10px #fff, 0px 1px 10px #fff, 0px 1px 8px #fff, 0px 1px 12px #fff;
+}
+
+
+
+
+
+/**//* FOOTER *//* FOOTER *//**//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER */
+
+.footer{
+  background-color: #3d3d3e;
+  color: #fff;
+  padding: 123px 0;
+}
+
+.footer h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.footer h5{
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer h4{
+  background-color: #fff;
+  padding: 17px 0;
+  color: #5b5b5f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;  
+  border-radius: 55px;
+}
+
+.footer h4:hover{
+   box-shadow: 0px 1px 10px #fff, 0px 1px 10px #fff, 0px 1px 8px #fff, 0px 1px 12px #fff;
+}
+
+
+
+
+
+/* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */
+  
+  .last-section{
+    background-color: #494949;
+    color: #fff;
+    padding: 5px 0 2px 0;
+  }
+
+  .last-section a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .last-section h5{
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* MIDIA QUERIES *//* MIDIA QUERIES *//**//* MIDIA QUERIES *//* MIDIA QUERIES *//* MIDIA QUERIES */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+@media(max-width: 1065px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.8rem;
+    padding-right:7px;
+    padding-left:7px;
+  }
+
+}
+
+
+@media(max-width: 992px){
+
+  .slider-principal{
+    text-align: center;
+  }
+
+  .oquevou-encontrar br{
+    display: none;
+  }
+
+  .oquevou-encontrar h4{
+    margin: 55px 0 0 0;
+  }
+
+  .oquevou-encontrar .meu-card{
+    margin: 5px 0;
+  }
+
+  .oquevou-encontrar .meu-card2{
+    margin: 5px 0;
+  }
+
+  .oquevou-encontrar .celula1{
+    margin: 55px 0 0 0;
+  }
+
+  .dra-marcela-arrabal{
+    text-align: center;
+  }
+
+  .dra-marcela-arrabal img{
+    margin: 0 0 55px 0;
+  }
+
+  .mais-sobre-ebook{
+    text-align: center;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .footer img{
+    margin: 0 0 33px 0;
+  }
+
+  .footer h3{
+    margin: 33px 0 0 0;
+  }
+
+  .last-section{
+    text-align: center;
+  }
+
+
+}
+  
+
+@media(max-width: 450px){
+
+  .topo img{
+    width: 165px;
+  }
+
+  .slider-principal h5{
+    font-size: 1rem;
+  }
+
+  .slider-principal h1{
+    font-size: 2.2rem;
+  }
+
+  .slider-principal h4{
+    font-size: 0.9rem;
+  }
+
+  .slider-principal img{
+    margin: 25px 0 0 0;
+  }
+
+  .oquevou-encontrar h2{
+    font-size: 1.5rem;
+  }
+
+  .oquevou-encontrar h5{
+    font-size: 1rem;
+  }
+
+  .oquevou-encontrar h4{
+    font-size: 1rem;
+  }
+
+  .indice-ebook h4{
+    font-size: 1rem;
+  }
+
+  .dra-marcela-arrabal h2{
+    font-size: 1.5rem;
+  }
+
+  .dra-marcela-arrabal h5{
+    font-size: 1.1rem;
+  }
+
+  .dra-marcela-arrabal h4{
+    font-size: 1.1rem;
+  }
+
+  .mais-sobre-ebook h2{
+    font-size: 1.5rem;
+  }
+
+  .mais-sobre-ebook h5{
+    font-size: 1.1rem;
+  }
+
+  .mais-sobre-ebook h4{
+    font-size: 1rem;
+  }
+
+  .footer h5{
+    font-size: 1.1rem;
+  }
+
+}  
